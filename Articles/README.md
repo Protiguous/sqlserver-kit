@@ -2,6 +2,7 @@
 
 Articles types:
  - **[AZ]** Azure Articles
+ - **[AMZ]** Amazon AWS Articles
  - **[B]** Backup Articles
  - **[BENCH]** Benchmarking Articles
  - **[IDX]** Index Articles
@@ -843,7 +844,7 @@ Articles types:
 | [Compress Big Tables]                                                                                                   | Max Vernon                               | 2019-08-22 | [DBA][DEV]  |
 | [Hardening SQL Server Security]                                                                                         | Mitch Wheat                              | 2019-08-21 | [DBA][SEC]  |
 | [Splitting Strings With OPENJSON]                                                                                       | Dave Mason                               | 2019-05-06 | [DEV][X]    |
-| [How to migrate to Amazon RDS for SQL Server using transactional replication]                                           | Richard Waymire                          | 2018-05-17 | [DBA][MG]   |
+| [How to migrate to Amazon RDS for SQL Server using transactional replication]                                           | Richard Waymire                          | 2018-05-17 | [AMZ][MG]   |
 | [The Hardest Part Of Query Tuning: Logical Equivalence]                                                                 | Erik Darling                             | 2019-08-13 | [DBA][DEV]  |
 | [SQL Injection: What is it? Causes and exploits]                                                                        | Ed Pollack                               | 2019-08-30 | [SEC]       |
 | [SQL Injection: Detection and prevention]                                                                               | Ed Pollack                               | 2019-08-30 | [SEC]       |
@@ -960,7 +961,7 @@ Articles types:
 | [PCI Best Practices Guide for SQL Server DBAs]                                                                          | Tibor Nagy                               | 2015-05-08 | [DBA][SEC]  |
 | [SQL Server Security Checklist]                                                                                         | Tibor Nagy                               | 2014-02-06 | [DBA][SEC]  |
 | [Replace Model SQL Server Database with a User Database]                                                                | Daniel Farina                            | 2019-12-13 | [DBA]       |
-| [SQL Server Linux installation for Amazon EC2 instance with Red Hat OS]                                                 | Rajendra Gupta                           | 2020-01-09 | [DBA]       |
+| [SQL Server Linux installation for Amazon EC2 instance with Red Hat OS]                                                 | Rajendra Gupta                           | 2020-01-09 | [AMZ        |
 | [Departure of a SQL Server Administrator – What to Check?]                                                              | Thomas Rushton                           | 2020-01-03 | [DBA]       |
 | [The Curious Case of… transactions rolling back during DBCC CHECKDB]                                                    | Paul Randal                              | 2020-01-15 | [DBA]       |
 | [Don’t install SQL Server from a mounted ISO]                                                                           | Randolph West                            | 2020-01-15 | [DBA]       |
@@ -1207,7 +1208,7 @@ Articles types:
 | [SQL Server Temporary Object Caching]                                                                                   | Paul White                               | 2017-05-02 | [DBA][DEV]  |
 | [Dynamic Data Unmasking]                                                                                                | Joe Obbish                               | 2017-08-24 | [DBA][DEV]  |
 | [3 Ways to Run DBCC CHECKDB Faster]                                                                                     | Brent Ozar                               | 2020-08-27 | [DBA][DEV]  |
-| [Back Up SQL Server 43%-67% Faster by Writing to Multiple Files.]                                                       | Brent Ozar                               | 2020-08-23 | [DBA][DEV]  |
+| [Back Up SQL Server 43%-67% Faster by Writing to Multiple Files]                                                        | Brent Ozar                               | 2020-08-23 | [DBA][DEV]  |
 | [Bad Habits to Kick : Using SELECT * / omitting the column list]                                                        | Aaron Bertrand                           | 2009-10-10 | [DBA][DEV]  |
 | [All The Problems With Select *]                                                                                        | Erik Darlling                            | 2019-12-10 | [DBA][DEV]  |
 | [When Select * Doesn’t Matter]                                                                                          | Erik Darlling                            | 2019-11-18 | [DBA][DEV]  |
@@ -1260,8 +1261,8 @@ Articles types:
 | [The What, Why, When, and How of Incremental Loads]                                                                     | Tim Mitchell                             | 2020-07-23 | [DBA][DEV]  |
 | [How Do I Know If My Query Is Good Enough for Production?]                                                              | Brent Ozar                               | 2020-08-12 | [DBA][DEV]  |
 | [How to Find Out Whose Queries are Using The Most CPU]                                                                  | Brent Ozar                               | 2020-08-10 | [DBA][DEV]  |
-| [Limitations of SQL Server Native Backup and Restore in Amazon RDS]                                                     | Sadequl Hussain                          | 2017-08-23 | [B]         |
-| [SQL Server Native Backup and Restore in Amazon RDS]                                                                    | Sadequl Hussain                          | 2017-08-18 | [B]         |
+| [Limitations of SQL Server Native Backup and Restore in Amazon RDS]                                                     | Sadequl Hussain                          | 2017-08-23 | [AMZ][B]    |
+| [SQL Server Native Backup and Restore in Amazon RDS]                                                                    | Sadequl Hussain                          | 2017-08-18 | [AMZ][B]    |
 | [What Is the SQL Server CEIP Service (telemetry)?]                                                                      | Brent Ozar                               | 2020-10-07 | [DBA]       |
 | [Maximum Simultaneous User Connections]                                                                                 | Michael J Swart                          | 2020-10-16 | [DBA]       |
 | [Find Database Connection Leaks in Your Application]                                                                    | Michael J Swart                          | 2017-07-07 | [DBA][DEV]  |
@@ -1286,6 +1287,26 @@ Articles types:
 | [Explore the SQL query table hint READPAST]                                                                             | Rajendra Gupta                           | 2020-11-14 | [DBA][DEV]  |
 | [How Bad Statistics Cause Bad SQL Server Query Performance]                                                             | Brent Ozar                               | 2020-11-14 | [DBA][DEV]  |
 | [How Scalar User-Defined Functions Slow Down Queries]                                                                   | Brent Ozar                               | 2020-11-14 | [DBA][DEV]  |
+| [Could verifying your backups be costing you money?]                                                                    | Matt Robertshaw                          | 2020-01-01 | [AZ][B]     |
+| [Extended Events: System_health And A Long Running Query]                                                               | Grant Fritchey                           | 2020-05-09 | [XE]        |
+| [Altering an indexed view in SQL Server drops all indexes]                                                              | Little Kendra                            | 2020-03-02 | [DBA][DEV]  |
+| [Deprecated and discontinued features in SQL Server]                                                                    | Randolph West                            | 2020-03-04 | [DBA][DEV]  |
+| [Query Store, Plan Forcing, And Drop/create]                                                                            | Grant Fritchey                           | 2020-03-02 | [QS]        |
+| [Uncommon SQL in SQL Server]                                                                                            | Shane O'Neill                            | 2020-11-20 | [DBA][DEV]  |
+| [Configure SQL Server Replication between AWS RDS SQL Server and On-premises SQL Server]                                | Rajendra Gupta                           | 2020-11-12 | [AMZ]       |
+| [Import data into Azure SQL database from AWS Redshift]                                                                 | Rahul Mehta                              | 2020-11-10 | [AMZ][AZ]   |
+| [When You’re Troubleshooting Blocking, Look at Query #2, Too.]                                                          | Brent Ozar                               | 2020-11-19 | [DBA][DEV]  |
+| [Finding the One Query to Tune in a Multi-Query Batch]                                                                  | Brent Ozar                               | 2020-11-23 | [DBA][DEV]  |
+| [Recursion in SQL Explained Visually]                                                                                   | Denis Lukichev                           | 2020-11-22 | [DBA][DEV]  |
+| [Viva la Famiglia! Stored procedure for created recursive family tree]                                                  | Brad Schulz                              | 2020-10-01 | [DEV]       |
+| [How to Set & Get the Next ID Without Serializable Isolation]                                                           | Brent Ozar                               | 2020-11-25 | [DBA][DEV]  |
+| [Discovering Three or Four Part Names in SQL Server Database Code]                                                      | Louis Davidson                           | 2019-03-08 | [DBA][DEV]  |
+| [Troubleshooting RESOURCE_SEMAPHORE_QUERY_COMPILE Helper Queries]                                                       | Eric Darling                             | 2020-11-24 | [DBA][DEV]  |
+| [When Do I Need to Use DESC in Indexes?]                                                                                | Brent Ozar                               | 2020-11-30 | [DBA][DEV]  |
+| [Export Power BI Desktop data to SQL Server]                                                                            | Rui Romano                               | 2016-04-21 | [DBA][DEV]  |
+| [Exploring errors to reveal unauthorized information]                                                                   | Fabiano Amorim                           | 2020-10-19 | [SEC]       |
+| [How to run your CTE just once, and re-use the output]                                                                  | Daniel Hutmacher                         | 2020-12-01 | [DBA][DEV]  |
+| [Documenting SSIS Packages using Sequence Diagrams]                                                                     | Aveek Das                                | 2020-11-25 | [SSIS]      |
 
 [Understanding how SQL Server executes a query]:http://rusanu.com/2013/08/01/understanding-how-sql-server-executes-a-query/
 [SQL Server Index Design Guide]:https://technet.microsoft.com/en-us/library/jj835095.aspx
@@ -2403,6 +2424,7 @@ Articles types:
 [Prevent Unexpected Failovers When Patching AGs]:https://joshthecoder.com/2020/05/21/prevent-unexpected-failovers-when-patching-ags.html
 [Updating Statistics Causes Parameter Sniffing]:https://www.brentozar.com/archive/2020/06/updating-statistics-causes-parameter-sniffing/
 [The Ascending Key Problem in Fact Tables– Part one: Pain!]:https://kejserbi.wordpress.com/2011/07/01/the-ascending-key-problem-in-fact-tables-part-one-pain/
+[The Ascending Key Problem In Fact Tables –Part Two: Stat Job!]:http://blog.kejser.org/the-ascending-column-problem-in-fact-tables-part-two-stat-job/
 [Are Statistics Being Used for inserted and deleted tables and table variables?]:https://community.idera.com/database-tools/blog/b/community_blog/posts/are-statistics-being-used
 [Tackling Imperial and US Customary Measurements in Databases]:https://www.red-gate.com/simple-talk/blogs/tackling-imperial-and-us-customary-measurements-in-databases/
 [In-Memory OLTP Best Practices – Part 1]:https://devblogs.microsoft.com/premier-developer/in-memory-oltp-best-practices-part-1/
@@ -2436,7 +2458,7 @@ Articles types:
 [Security Best Practice: dny and revoke permissions granted to All Users by default - HIGHLY IMPORTANT!]:https://ariely.info/Blog/tabid/83/EntryId/241/Security-Best-Practice-dny-and-revoke-permissions-granted-to-All-Users-by-default-HIGHLY-IMPORTANT.aspx
 [Execute multiple jobs Synchronously from in a main job]:https://ariely.info/Blog/tabid/83/EntryId/250/Execute-multiple-jobs-Synchronously-from-in-a-main-job.aspx
 [The Trillion Row Operator]:https://www.erikdarlingdata.com/2020/08/the-trillion-row-operator/
-[Temporal Tables and Table Partitioning: Not If You Like Switching Partitions]:https://www.erikdarlingdata.com/2020/03/temporal-tables-and-table-partitioning-not-if-you-like-switching-partitions/
+[Temporal Tables and Table Partitioning: Not If You Like Switching Partitions]:https://www.erikdarlingdata.com/sql-server/temporal-tables-and-table-partitioning-not-if-you-like-switching-partitions/
 [Long Running Query on Read-Only Replica that takes moments on the Primary]:https://dba.stackexchange.com/questions/237671/long-running-query-on-read-only-replica-that-takes-moments-on-the-primary/
 [Date Tables are Great for Users, but Not So Great for Performance]:https://www.brentozar.com/archive/2020/08/date-tables-are-great-for-users-but-not-so-great-for-performance/
 [Should I install SSMS on a server running SQL Server?]:https://am2.co/2020/04/should-i-install-ssms-on-a-server-running-sql-server/
@@ -2522,7 +2544,7 @@ Articles types:
 [How to Find Out Whose Queries are Using The Most CPU]:https://www.brentozar.com/archive/2020/08/how-to-find-out-whose-queries-are-using-the-most-cpu/
 [Limitations of SQL Server Native Backup and Restore in Amazon RDS]:https://www.mssqltips.com/sqlservertip/5042/limitations-of-sql-server-native-backup-and-restore-in-amazon-rds/
 [SQL Server Native Backup and Restore in Amazon RDS]:https://www.mssqltips.com/sqlservertip/5041/sql-server-native-backup-and-restore-in-amazon-rds/
-[What Is the SQL Server CEIP Service?]:https://www.brentozar.com/archive/2020/10/what-is-the-sql-server-ceip-service/
+[What Is the SQL Server CEIP Service (telemetry)?]:https://www.brentozar.com/archive/2020/10/what-is-the-sql-server-ceip-service/
 [Maximum Simultaneous User Connections]:http://www.sqlnuggets.com/blog/disable-telemetry-on-multiple-sql-servers-with-powershell/
 [Find Database Connection Leaks in Your Application]:https://sqlperformance.com/2017/07/sql-performance/find-database-connection-leaks
 [How to Troubleshoot THREADPOOL Waits and Deadlocked Schedulers]:https://eitanblumin.com/2020/10/05/how-to-troubleshoot-threadpool-waits-and-deadlocked-schedulers/
@@ -2546,3 +2568,23 @@ Articles types:
 [Explore the SQL query table hint READPAST]:https://www.sqlshack.com/explore-the-sql-query-table-hint-readpast/
 [How Bad Statistics Cause Bad SQL Server Query Performance]:https://www.brentozar.com/archive/2020/11/how-bad-statistics-cause-bad-sql-server-query-performance/
 [How Scalar User-Defined Functions Slow Down Queries]:https://www.brentozar.com/archive/2020/11/how-scalar-user-defined-functions-slow-down-queries/
+[Could verifying your backups be costing you money?]:https://blog.coeo.com/verifying-backups-cost
+[Extended Events: System_health And A Long Running Query]:https://www.scarydba.com/2020/03/09/extended-events-system_health-and-a-long-running-query/
+[Altering an indexed view in SQL Server drops all indexes]:https://littlekendra.com/2020/03/02/altering-an-indexed-view-in-sql-server-drops-all-indexes/
+[Deprecated and discontinued features in SQL Server]:https://bornsql.ca/blog/deprecated-and-discontinued-features-in-sql-server/
+[Query Store, Plan Forcing, And Drop/create]:https://www.scarydba.com/2020/03/02/query-store-plan-forcing-and-drop-create/
+[Uncommon SQL in SQL Server]:https://nocolumnname.blog/2020/11/20/uncommon-sql/
+[Configure SQL Server Replication between AWS RDS SQL Server and On-premises SQL Server]:https://www.sqlshack.com/configure-sql-server-replication-between-aws-rds-sql-server-and-on-premises-sql-server/
+[Import data into Azure SQL database from AWS Redshift]:https://www.sqlshack.com/import-data-into-azure-sql-database-from-aws-redshift/
+[When You’re Troubleshooting Blocking, Look at Query #2, Too.]:https://www.brentozar.com/archive/2020/11/when-youre-troubleshooting-blocking-look-at-query-2-too/
+[Finding the One Query to Tune in a Multi-Query Batch]:https://www.brentozar.com/archive/2020/11/finding-the-one-query-to-tune-in-a-multi-query-batch/
+[Recursion in SQL Explained Visually]:https://medium.com/swlh/recursion-in-sql-explained-graphically-679f6a0f143b
+[Viva la Famiglia! Stored procedure for created recursive family tree]:https://bradsruminations.blogspot.com/2009/10/viva-la-famiglia.html
+[How to Set & Get the Next ID Without Serializable Isolation]:https://www.brentozar.com/archive/2020/11/how-to-set-get-the-next-id-without-serializable-isolation/
+[Discovering Three or Four Part Names in SQL Server Database Code]:https://www.red-gate.com/simple-talk/blogs/discovering-three-or-four-part-names-in-sql-server-database-code/
+[Troubleshooting RESOURCE_SEMAPHORE_QUERY_COMPILE Helper Queries]:https://www.erikdarlingdata.com/sql-server/troubleshooting-resource_semaphore_query_compile-helper-queries/
+[When Do I Need to Use DESC in Indexes?]:https://www.brentozar.com/archive/2020/11/when-do-i-need-to-use-desc-in-indexes/
+[Export Power BI Desktop data to SQL Server]:https://ruiromanoblog.wordpress.com/2016/04/21/use-power-bi-desktop-as-an-etl-tool/
+[Exploring errors to reveal unauthorized information]:https://www.red-gate.com/simple-talk/sql/database-administration/exploring-errors-to-reveal-unauthorized-information/
+[How to run your CTE just once, and re-use the output]:https://sqlsunday.com/2020/12/01/run-your-cte-just-once-and-reuse-output/
+[Documenting SSIS Packages using Sequence Diagrams]:https://www.sqlshack.com/documenting-ssis-packages-using-sequence-diagrams-2/

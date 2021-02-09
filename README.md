@@ -96,7 +96,7 @@ Useful links, scripts, tools and best practice for Microsoft SQL Server Database
     - [udf_SplitStringByDelimiter](/User_Defined_Function/udf_SplitStringByDelimiter.sql)
     - [udf_Tally](/User_Defined_Function/udf_Tally.sql)
     - and many others...
- - [Utilities](/Utilities) (**Complete list of 384 SQL Server paid and free Utilities and Tools**)
+ - [Utilities](/Utilities) (**Complete list of 393 SQL Server paid and free Utilities and Tools**)
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -366,7 +366,7 @@ Useful links, scripts, tools and best practice for Microsoft SQL Server Database
     - [TSqlStrong - T-Sql type checker that detects improper joins, possibly null value operations, enumeration check constraint violations, incorrect use of temporary table at call site, and more](https://github.com/JSuder-xx/TSqlStrong) (by John Suder)
     - [SQL Power Doc - is a collection of Windows PowerShell scripts and modules that discover, document, and diagnose SQL Server instances and their underlying Windows OS & machine configuration](https://github.com/kendalvandyke/sqlpowerdoc) (by Kendal Van Dyke)
     - [rsqlserver - Sql Server driver database interface (DBI) driver for R](https://github.com/agstudy/rsqlserver)
-    - [sp_SizeOptimiser - a stored procedure that recommends space saving and corrective data type measures based on SQL Server database schemas](https://github.com/LowlyDBA/ExpressSQL) (by John McCall)
+    - [DBA MultiTool - T-SQL scripts for the long haul: optimizing storage, on-the-fly documentation, and general administrative needs.](https://github.com/LowlyDBA/dba-multitool) (by John McCall)
     - [language-extensions-sqlserver - SQL Server Language Extensions project](https://github.com/microsoft/sql-server-language-extensions) (by Microsoft)
     - [AzureRMR - R package for interacting with Azure Resource Manager](https://github.com/Azure/AzureRMR) (by Microsoft)
     - [EntityFramework.Utilities - Provides extensions for EntityFramework that doesn't exist out of the box like delete and update by query and bulk inserts](https://github.com/MikaelEliasson/EntityFramework.Utilities) (by Mikael Eliasson)
@@ -393,6 +393,7 @@ Useful links, scripts, tools and best practice for Microsoft SQL Server Database
     - [EFCorePowerTools - Reverse engineering, model visualization and migrations UI for EF Core](https://github.com/ErikEJ/EFCorePowerTools) (by Erik Ejlskov Jensen)
     - [SqlTableDependency - a high-level C# component used to audit, monitor and receive notifications on SQL Server's record table changes](https://github.com/christiandelbianco/monitor-table-change-with-sqltabledependency) (by Christian Del Bianco)
     - [EFSecondLevelCache.Core - Entity Framework Core Second Level Caching Library (Redis)](https://github.com/VahidN/EFSecondLevelCache.Core) (by Vahid Nasiri)
+    - [Dotmim.Sync - a brand new database synchronization, multi platform, multi databases, developed on top of .Net Standard 2.0](https://github.com/Mimetis/Dotmim.Sync)
  - Other
     - [SQL# SQLCLR functions](https://sqlsharp.com/) (by Sql Quantum Lift)
     - [SQL Server Latch Classes Library](https://www.sqlskills.com/help/latches/) (by Paul S. Randal)
@@ -514,6 +515,7 @@ BIML Bloggers
  - [Powershell xSQLServer module contains DSC resources for deployment and configuration of SQL Server](https://github.com/PowerShell/xSQLServer) (Github by Microsoft)
  - [Export-DMVInformation - Export the resuts from Glenn Berry's DMV queries directly to Excel](https://github.com/sanderstad/Export-DMVInformation/) (Github) (by Sander Stad)
  - [Export-QueryToSQLTable - Export one or more query results run against one or more instances/databases to table](https://github.com/SQLJana/Export-QueryToSQLTable) (by Jana Sattainathan) (Github)
+ - [PowerBIETL - a developer tool to quickly load a SQL Database using PowerBIDesktop queries](https://www.powershellgallery.com/packages/PowerBIETL/) (by DevScope)
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -538,7 +540,7 @@ BIML Bloggers
  - https://github.com/benkeen/generatedata
  - https://sourceforge.net/projects/dbmonster/
  - https://sourceforge.net/projects/spawner/
- - [Tools for Generating Mock Data?](https://stackoverflow.com/q/591892)
+ - [Tools for Generating Mock Data](https://stackoverflow.com/q/591892)
  - https://mockaroo.com
  - https://anonymize.strd.co/
 
@@ -622,6 +624,7 @@ R:
 - [Pro SQL Server Internals](https://www.amazon.co.uk/dp/1484219635/) 840 pages (by Dmitri Korotkevitch)
 - [Pro SQL Server Always On Availability Groups](https://www.amazon.co.uk/dp/B01M3U6WRM/) 332 pages (by Uttam Parui, Vivek Sanil) 
 - [Refactoring Legacy T-SQL for Improved Performance: Modern Practices for SQL Server](https://www.amazon.co.uk/dp/1484255801/) 260 pages (by Lisa Bohm)
+- [Hands-On SQL Server 2019 Analysis Services](https://www.packtpub.com/product/hands-on-sql-server-2019-analysis-services/9781800204768) (by Steve Hughes)
 
 
 **[⬆ back to top](#table-of-contents)**
